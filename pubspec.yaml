@@ -37,6 +37,10 @@ dependencies:
   cupertino_icons: ^1.0.6
   # A flutter plugin for adapting screen and font size.Guaranteed to look good on different models
   flutter_screenutil: ^5.9.3
+  # A carousel slider widget, support infinite scroll and custom child widget.
+  carousel_slider: ^5.0.0
+  #A powerful HTTP networking package, supports Interceptors, Aborting and canceling a request, Custom adapters, Transformers, etc.
+  dio: ^5.7.0
 
 dev_dependencies:
   flutter_test:
@@ -63,7 +67,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/
-  #   - images/a_dot_ham.jpeg
+    - assets/icons/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
