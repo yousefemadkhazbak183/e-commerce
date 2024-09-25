@@ -1,5 +1,5 @@
 import 'package:e_commerce_app/core/routes_manager/routes.dart';
-import 'package:e_commerce_app/presentation/home/tabs/home_tab/home_screen.dart';
+import 'package:e_commerce_app/presentation/home/home_screen.dart';
 import 'package:e_commerce_app/presentation/splash_screen/splash_screen.dart';
 import 'package:flutter/material.dart';
 
