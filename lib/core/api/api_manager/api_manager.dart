@@ -1,6 +1,8 @@
 import 'package:dio/dio.dart';
 import 'package:e_commerce_app/core/constant/constant_manager.dart';
+import 'package:injectable/injectable.dart';
 
+@singleton
 class ApiManager {
   static late Dio dio;
 

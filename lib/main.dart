@@ -2,10 +2,12 @@ import 'package:e_commerce_app/core/api/api_manager/api_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import 'core/di/di.dart';
 import 'core/routes_manager/routes.dart';
 import 'core/routes_manager/routes_generator.dart';
 
 void main() {
+  configureDependencies();
   ApiManager.init();
   runApp(const MyApp());
 }

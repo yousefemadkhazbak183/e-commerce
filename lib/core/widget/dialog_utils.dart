@@ -10,7 +10,7 @@ class DialogUtils {
           return AlertDialog(
             content: Row(
               children: [
-                CircularProgressIndicator(),
+                const CircularProgressIndicator(),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Text(message),
@@ -23,5 +23,17 @@ class DialogUtils {
 
   static void hideLoading(BuildContext context) {
     Navigator.pop(context);
+  }
+
+  static AlertDialog showDailogU() {
+    return const AlertDialog(
+      content: Center(
+        child: CircularProgressIndicator(),
+      ),
+    );
+  }
+
+  static AlertDialog showDialgListWidget() {
+    return const AlertDialog();
   }
 }

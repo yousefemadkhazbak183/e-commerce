@@ -28,7 +28,8 @@ class AppValidators {
     }
   }
 
-  static String? validateConfirmPassword(String? value, String? password) {
+  static String? validateConfirmPassword(
+      String? value, String? password) {
     if (value == null || value.isEmpty) {
       return 'this field is required';
     } else if (value != password) {

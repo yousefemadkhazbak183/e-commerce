@@ -41,6 +41,15 @@ dependencies:
   carousel_slider: ^5.0.0
   #A powerful HTTP networking package, supports Interceptors, Aborting and canceling a request, Custom adapters, Transformers, etc.
   dio: ^5.7.0
+  # Functional Programming in Dart. Purify your Dart code using efficient immutable data structures, monads, lenses and other FP tools
+  dartz: ^0.10.1
+  #Flutter Widgets that make it easy to implement the BLoC (Business Logic Component) design pattern. Built to be used with the bloc state management package.
+  flutter_bloc: ^8.1.6
+  injectable:
+  # add get_it
+  get_it:
+  # Flutter library to load and cache network images. Can also be used with placeholder and error widgets.
+  cached_network_image: ^3.4.1
 
 dev_dependencies:
   flutter_test:
@@ -52,6 +61,10 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^3.0.0
+  # add the generator to your dev_dependencies
+  injectable_generator:
+  # add build runner if not already added
+  build_runner:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
