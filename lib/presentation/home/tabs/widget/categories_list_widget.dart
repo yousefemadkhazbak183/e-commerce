@@ -28,13 +28,10 @@ class _CategoriesListWidgetState extends State<CategoriesListWidget> {
   Widget build(BuildContext context) {
     return BlocConsumer<HomeTabViewModel, HomeTabState>(
         buildWhen: (previous, currentState) {
-      if (currentState is CategoriesErrorState) {
-        return false;
+      if (currentState is CategoriesSuccessState) {
+        return true;
       }
-      if (currentState is CategoriesLoadingState) {
-        return false;
-      }
-      return true;
+      return false;
     }, listenWhen: (previous, currentState) {
       if (currentState is CategoriesErrorState) {
         return true;
